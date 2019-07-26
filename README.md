@@ -194,7 +194,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <body>
   <table style="width:100%;">
     <h2>Solid Pod Data Browser Search</h2>
-    <tr>Solid Pod Data Browser</tr>
+    
     <tr style="font-size:100%">
       <td style="padding:1em; width:5em;" id="icon">Enter URL:</td>
       <td><input id="subject" type="text" style="font-size:100%; min-width:30em; padding:0.5em; width:95%;"/></td>
