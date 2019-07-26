@@ -1,6 +1,5 @@
-# Solid-Pod-Data-Browser
-Use the Solid Data Browser to view any solid pod url or uri. Simply instert the the complete address of the Solid Pod you would like to view inside a Solid interactive Data Browser.
-
+# Solid-Pod-Data-Browser-Search
+Use the Solid Data Browser app to search and view any solid pod url or uri. Simply instert the Solid Pod address ie., https://example.solid.community/public into the Solid interactive Data Browser search bar and click "search". Your results will appear in a Solid Data Browser Window.
 <!DOCTYPE html>
 <html id="docHTML">
 <head>
