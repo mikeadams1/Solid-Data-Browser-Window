@@ -164,7 +164,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (initialForm) {
       formEle.value = initialForm
     } else {
-      // formEle.value = 'https://timbl.com/timbl/Public/Test/Forms/individualForm.ttl#form1'
+      // formEle.value = 'https://index,solid.community'
     }
 
     goButton.addEventListener('click', expandDataBowser, false);
@@ -173,13 +173,13 @@ document.addEventListener('DOMContentLoaded', function() {
       subject.value = initial
     } else {
       console.log('ready for user input')
-      // subjectEle.value = 'https://www.w3.org/People/Berners-Lee/card#i' // @@ testing
+      // subjectEle.value = 'https://index.solid.community' // @@ testing
     }
 
     async function main () {
-      await addToTray($rdf.sym('https://timbl.com/timbl/Public/Test/Forms/individualForm.ttl#form1'))
-      await addToTray($rdf.sym('https://www.w3.org/People/Berners-Lee/card#i'))
-      await addToTray($rdf.sym('https://www.w3.org/ns/ui#FormForm'))
+      await addToTray($rdf.sym('https://index.solid.community'))
+      await addToTray($rdf.sym('https://index.solid.community/card#i'))
+      await addToTray($rdf.sym('https://index.solid.community'))
     }
 
     if (initialSubject && initialForm) {
