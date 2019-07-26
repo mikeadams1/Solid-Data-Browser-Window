@@ -198,12 +198,12 @@ document.addEventListener('DOMContentLoaded', function() {
     <tr style="font-size:100%">
       <td style="padding:1em; width:5em;" id="icon">Enter URL:</td>
       <td><input id="subject" type="text" style="font-size:100%; min-width:30em; padding:0.5em; width:95%;"/></td>
-      <td  style="width:5em;"><input type="button" id="goButton" value="(Search)" /></td>
+      <td  style="width:5em;"><input type="button" id="goButton" value="Search" /></td>
     </tr>
     <tr style="font-size:100%">
       <td style="padding:1em; width:5em;" id="icon">Form to use:</td>
       <td><input id="form" type="text" style="font-size:100%; min-width:30em; padding:0.5em; width:95%;"/></td>
-      <td  style="width:5em;"><input type="button" id="applyButton" value="Apply" /></td>
+      <td  style="width:5em;"><input type="button" id="applyButton" value="Get" /></td>
     </tr>
     <tr><td colspan="3">
       <div class="TabulatorOutline" id="box">
