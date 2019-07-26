@@ -177,8 +177,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
     async function main () {
       await addToTray($rdf.sym('https://index.solid.community'))
-      await addToTray($rdf.sym('https://index.solid.community/card#i'))
-      await addToTray($rdf.sym('https://index.solid.community'))
+      await addToTray($rdf.sym('https://index.solid.community/public'))
+      await addToTray($rdf.sym('https://index.solid.community/profile/card'))
+      await addToTray($rdf.sym('https://yngwiemalmsteen.solid.community'))
+      await addToTray($rdf.sym('https://yngwiemalmsteen.solid.inrupt.net'))
+      await addToTray($rdf.sym('https://forums.solid.community'))
+      await addToTray($rdf.sym('https://anthonygoodley.inrupt.net.'))
+      await addToTray($rdf.sym('https://portal.solid.community'))
     }
 
     if (initialSubject && initialForm) {
