@@ -4,7 +4,7 @@ Solid Data Browser Window for APP
 <!DOCTYPE html>
 <html id="docHTML">
 <head>
-  <title>Solid Form Playground</title>
+  <title>Solid Pod Data Browser</title>
   <meta content="text/html; charset=UTF-8" http-equiv="content-type">
   <!-- was https://solid.github.io/solid-panes/style/tabbedtab.css   -->
   
@@ -194,9 +194,9 @@ document.addEventListener('DOMContentLoaded', function() {
 </head>
 <body>
   <table style="width:100%;">
-    <tr>Data browser form playground</tr>
+    <tr>Solid Pod Data Browser</tr>
     <tr style="font-size:100%">
-      <td style="padding:1em; width:5em;" id="icon">Subject:</td>
+      <td style="padding:1em; width:5em;" id="icon">Enter URL:</td>
       <td><input id="subject" type="text" style="font-size:100%; min-width:30em; padding:0.5em; width:95%;"/></td>
       <td  style="width:5em;"><input type="button" id="goButton" value="(databrowser view)" /></td>
     </tr>
