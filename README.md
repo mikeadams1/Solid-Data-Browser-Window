@@ -1,5 +1,5 @@
-# Solid-Data-Browser-Window
-Solid Data Browser Window for APP
+# Solid-Pod-Data-Browser
+Solid Data Browser APP 
 
 <!DOCTYPE html>
 <html id="docHTML">
