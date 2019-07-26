@@ -1,5 +1,5 @@
 # Solid-Pod-Data-Browser
-Solid Data Browser APP 
+Use the Solid Data Browser to view any solid pod url or uri. Simply instert the the complete address of the Solid Pod you would like to view inside a Solid interactive Data Browser.
 
 <!DOCTYPE html>
 <html id="docHTML">
