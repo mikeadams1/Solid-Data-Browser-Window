@@ -1,5 +1,5 @@
 # Solid-Pod-Data-Browser-Search
-Use the Solid Data Browser app to search and view any solid pod url or uri. Simply instert the Solid Pod address ie., https://example.solid.community/public into the Solid interactive Data Browser search bar and click "search". Your results will appear in a Solid Data Browser Window.
+Use the Solid Data Browser app to search and view any solid pod url or uri. Simply instert the Solid Pod address ie., https://example.solid.community/public into the Solid interactive Data Browser search bar and click "search". Your results will appear in a Solid Data Browser Window. There is also a feature of a html, css and js code editor.
 <!DOCTYPE html>
 <html id="docHTML">
 <head>
@@ -218,5 +218,12 @@ document.addEventListener('DOMContentLoaded', function() {
     </tr>
 </table>
   <button type="button" onclick="alert('Thank you for checking out the Solid Pod Search App Please email me with your feedback solid@inrupt.community')">Feedback</button>
+
+
+
+<iframe></iframe><body id=e><script>for(i=4;--i;)e.innerHTML+="<textarea id=t"+i+" placeholder="+[,"JS","CSS","HTML"][i]+" rows=9 onkeydown='if((K=event).keyCode==9){K.preventDefault();s=this.selectionStart;this.value=this.value.substring(0,this.selectionStart)+\"\t\"+this.value.substring(this.selectionEnd);this.selectionEnd=s+1}'>"+(unescape((l=location).hash.slice(1,-1)).split("\x7F")[i-1]||"");onload=onkeyup=function(a){q=[(E=escape)(j=t1[v="value"]),E(c=t2[v]),E(h=t3[v])].join("\x7f")+1;(H=history)&&H.replaceState?H.replaceState(0,0,"#"+q):location.hash=q;I=h||c||j?h+"<script>"+j+"<\/script><style>"+c:"<pre>Result";navigator.userAgent.match(/IE|Tr/)?((D=e.lastChild.contentWindow.document).write(I),D.close()):frames[0].location.replace("data:text/html,"+escape(I))}</script>
+
+
+
 </body>
 </html
